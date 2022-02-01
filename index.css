@@ -407,7 +407,30 @@ footer div i {
 }
 
 @media screen and (max-width: 638px) {
-    .box {
+    .box, .destination-card {
         width: 100%;
+    }
+
+    .image-heading {
+        font-size: 1.8em;
+    }
+    .image-description {
+        font-size: 0.9em;
+    }
+    .each-element-header {
+        font-size: 0.9em;
+    }
+    .explore {
+        font-size: 0.9em;
+    }
+    .blog-right-each , .blog-image-right{
+        min-height: 220px;
+    }
+    .blog-image-overlay {
+        font-size: 1.3em;
+    }
+    .feedback-card {
+        min-width: 350px;
+        max-width: 350px;
     }
 }
